@@ -1,0 +1,19 @@
+Data Cleaning Changelog
+
+
+1. Creating a copy of the file
+
+
+2. Removing duplicates
+	Data -> Remove Duplicates (26 duplicates removed)
+
+
+3. Standardizing the data
+	- Replaced M with Married(539 replacements) and S with Single(463 replacements) for column Marrital Status 
+	- Replaced M with Male(511 replacements) and F with Female(489 replacements) for column Gender 
+	- Created a new column called Age Category in which age categories are defined based on the age column
+		Age > 50 -> "Old"
+		Age >= 30 -> "Middle Age"
+		Age < 30 -> "Adolescent"
+
+4. No blanks identified
